@@ -2,55 +2,2025 @@
 <html lang="ru">
 
 <head>
-    <title>Главная</title>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta charset="utf-8" />
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/reset.css" />
-    <link rel="stylesheet" href="./css/jquery.fancybox.min.css" />
-    <link rel="stylesheet" href="./css/slick.css" />
-    <link rel="stylesheet" href="./css/style.min.css" />
+    <link rel="icon" href="https://smartpravo.com/front_user/images/favicon.svg" type="image/png">
+    <link rel="stylesheet" href="./index_files/style.css">
+    <link rel="stylesheet" href="./index_files/style_2.css">
+    <link rel="stylesheet" href="./index_files/animate.min.css">
+    <link rel="stylesheet" href="./index_files/magnific-popup.css">
+    <link rel="stylesheet" href="./index_files/slick.css">
+    <link rel="stylesheet" href="./index_files/slick-theme.css">
+    <link rel="stylesheet" href="./index_files/jquery-ui.css">
+    <script src="./index_files/jquery.min.js"></script>
+    <link rel="stylesheet" href="./index_files/daterangepicker.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+        @media (min-width: 1600px) {
+            .containerS {
+                padding-left: 0;
+                padding-right: 0;
+            }
+        }
+    </style>
+
 </head>
 
 <body>
     <!-- wrap -->
-    <div class="wrap">
+    <div class="wrapper">
 
+        <div class="firstblock" style="background-image: url(https://smartpravo.com/front_user/images/first_bg.jpg);">
 
-        <!-- header -->
-        <header class="header">
-            <div class="inner-wrap">
-                44444
+            <!-- header -->
+            <header class="header">
+                <div class="containerS">
+                    <div class="header__inside dflex">
+                        <div class="hamburger">
+                            <span></span><span></span><span></span><span></span>
+                        </div>
+                        <div class="header__left">
+                            <div class="header__logo">
+                                <a href="https://smartpravo.com/">
+                                    <img src="./index_files/logo_black.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="header__right">
+                            <div class="header__righttop dflex">
+                                <div class="header__social">
+                                    <div class="footer__social">
+                                        <ul>
+                                            <li>
+                                                <a href="https://t.me/smartpravo24" target="_blank">
+                                                    <svg width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M9.4174 14.5403L9.0204 20.4034C9.58841 20.4034 9.83441 20.1472 10.1294 19.8396L12.7925 17.1674L18.3106 21.4104C19.3226 22.0026 20.0357 21.6907 20.3087 20.4328L23.9308 2.61233L23.9318 2.61128C24.2528 1.04049 23.3907 0.426244 22.4047 0.811592L1.1142 9.3701C-0.33883 9.9623 -0.31683 10.8128 0.867199 11.1981L6.31033 12.9758L18.9536 4.66927C19.5486 4.25557 20.0897 4.48447 19.6446 4.89817L9.4174 14.5403Z" fill="white"></path>
+                                                    </svg>
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="https://vm.tiktok.com/ZSe3pn9Jt/" target="_blank">
+                                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M11.5291 8.68029C11.5159 16.3282 11.5089 16.9686 11.437 17.235C11.341 17.59 11.1002 18.1205 10.9068 18.4029C10.4709 19.0395 9.73743 19.5499 8.93788 19.773C8.58678 19.871 7.94278 19.9006 7.55718 19.8363C6.66089 19.6871 5.8254 19.1695 5.31608 18.448C4.90703 17.8685 4.71359 17.3204 4.67371 16.6278C4.63157 15.8957 4.80676 15.2113 5.19073 14.6083C5.53464 14.0681 6.14075 13.545 6.7197 13.2888C7.31177 13.0268 8.15165 12.9432 8.80208 13.0816C8.97632 13.1188 9.12403 13.1491 9.13028 13.1491C9.13648 13.1491 9.1416 12.2907 9.1416 11.2415V9.33403L8.92657 9.29901C8.59963 9.24584 7.4445 9.26094 7.03658 9.32376C5.29132 9.59243 3.7949 10.408 2.60523 11.7391C1.75987 12.6849 1.16431 13.9418 0.942945 15.2472C0.861234 15.7289 0.850868 15.9311 0.870741 16.6514C0.894688 17.5172 0.956345 17.917 1.17585 18.6299C1.32348 19.1092 1.72692 19.9316 2.06675 20.446C2.48948 21.0858 3.34493 21.9412 3.99671 22.3759C4.81599 22.9224 5.62328 23.267 6.5948 23.485C6.97515 23.5703 7.17827 23.5844 8.05514 23.5859C8.86591 23.5873 9.14965 23.5712 9.44612 23.5069C10.4906 23.2804 11.3029 22.9447 12.118 22.4027C12.5127 22.1402 12.7965 21.9012 13.2177 21.4765C13.581 21.1103 13.8883 20.7492 14.0709 20.4739C14.5994 19.6771 14.9527 18.8572 15.1723 17.9181C15.2708 17.4968 15.2719 17.4487 15.2863 12.7511C15.2944 10.1432 15.3114 8.0094 15.3242 8.0094C15.3369 8.0094 15.4534 8.08736 15.5831 8.18261C16.4977 8.85468 17.7737 9.43656 18.9467 9.71656C19.5162 9.85246 20.3568 9.96522 20.8007 9.96522H21.1379V8.07763V6.19004H20.8226C20.6492 6.19004 20.3065 6.15093 20.0609 6.10308C18.8445 5.86615 17.7826 5.28441 16.929 4.38719C16.0066 3.41779 15.4768 2.26837 15.3332 0.925269L15.2786 0.413574H13.411H11.5434L11.5291 8.68029Z" fill="white"></path>
+                                                    </svg>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.youtube.com/channel/UC9hbQUfpmfi_f_equkpZt1g" target="_blank">
+                                                    <svg width="30" height="22" viewBox="0 0 30 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M26.7379 1.1425C28.0229 1.48846 29.0361 2.50164 29.3821 3.78664C30.0246 6.13424 29.9999 11.0271 29.9999 11.0271C29.9999 11.0271 29.9999 15.8953 29.3821 18.2429C29.0361 19.5279 28.0229 20.5411 26.7379 20.8871C24.3903 21.5049 14.9999 21.5049 14.9999 21.5049C14.9999 21.5049 5.63424 21.5049 3.26193 20.8624C1.97693 20.5164 0.963752 19.5032 0.61779 18.2182C0 15.8953 0 11.0024 0 11.0024C0 11.0024 0 6.13424 0.61779 3.78664C0.963752 2.50164 2.00164 1.46375 3.26193 1.11779C5.60953 0.5 14.9999 0.5 14.9999 0.5C14.9999 0.5 24.3903 0.5 26.7379 1.1425ZM19.8187 11.0024L12.0098 15.4999V6.50492L19.8187 11.0024Z" fill="white"></path>
+                                                    </svg>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="header__entryreg">
+                                    <a href="https://smartpravo.com/login" class="header__entry">
+                                        <svg width="27" height="21" viewBox="0 0 27 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9.25 12C14.2011 12 18.5 13.7626 18.5 17.6429C18.5 19.6593 17.7189 20.5 16.0441 20.5H2.45588C0.781109 20.5 0 19.6593 0 17.6429C0 13.7626 4.29892 12 9.25 12ZM9.25 14C5.30402 14 2 15.3547 2 17.6429C2 18.5338 1.92853 18.5064 2.37213 18.5006L16.0441 18.5C16.5801 18.5 16.5 18.5862 16.5 17.6429C16.5 15.3547 13.196 14 9.25 14ZM21.2929 4.29289C21.6834 3.90237 22.3166 3.90237 22.7071 4.29289L26.7071 8.29289C27.0976 8.68342 27.0976 9.31658 26.7071 9.70711L22.7071 13.7071C22.3166 14.0976 21.6834 14.0976 21.2929 13.7071C20.9024 13.3166 20.9024 12.6834 21.2929 12.2929L23.585 10H17.5C16.9872 10 16.5645 9.61396 16.5067 9.11662L16.5 9C16.5 8.44772 16.9477 8 17.5 8H23.585L21.2929 5.70711C20.9324 5.34662 20.9047 4.77939 21.2097 4.3871L21.2929 4.29289ZM9 0C12.0385 0 14.5 2.46147 14.5 5.5C14.5 8.53853 12.0385 11 9 11C5.96147 11 3.5 8.53853 3.5 5.5C3.5 2.46147 5.96147 0 9 0ZM9 2C7.06603 2 5.5 3.56603 5.5 5.5C5.5 7.43397 7.06603 9 9 9C10.934 9 12.5 7.43397 12.5 5.5C12.5 3.56603 10.934 2 9 2Z" fill="#D0A144"></path>
+                                        </svg>
+                                        <span>Войти</span>
+                                    </a>
+                                    <span class="separateentry">/</span>
+                                    <a href="https://smartpravo.com/register" class="header__reg">
+                                        <span>Зарегистрироваться</span>
+                                        <svg width="27" height="21" viewBox="0 0 27 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M17.75 12C22.7011 12 27 13.7626 27 17.6429C27 19.6593 26.2189 20.5 24.5441 20.5H10.9559C9.28111 20.5 8.5 19.6593 8.5 17.6429C8.5 13.7626 12.7989 12 17.75 12ZM17.75 14C13.804 14 10.5 15.3547 10.5 17.6429C10.5 18.5338 10.4285 18.5064 10.8721 18.5006L24.5441 18.5C25.0801 18.5 25 18.5862 25 17.6429C25 15.3547 21.696 14 17.75 14ZM5 4C5.55228 4 6 4.44772 6 5V8H9C9.55229 8 10 8.44772 10 9C10 9.55228 9.55229 10 9 10H6V13C6 13.5523 5.55228 14 5 14C4.44772 14 4 13.5523 4 13V10H1C0.447715 10 0 9.55228 0 9C0 8.44772 0.447715 8 1 8H4V5C4 4.44772 4.44772 4 5 4ZM17.5 0C20.5385 0 23 2.46147 23 5.5C23 8.53853 20.5385 11 17.5 11C14.4615 11 12 8.53853 12 5.5C12 2.46147 14.4615 0 17.5 0ZM17.5 2C15.566 2 14 3.56603 14 5.5C14 7.43397 15.566 9 17.5 9C19.434 9 21 7.43397 21 5.5C21 3.56603 19.434 2 17.5 2Z" fill="#D0A144"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="header__rightbottom dflex">
+                                <div class="header__menu">
+                                    <ul itemscope="" itemtype="http://schema.org/SiteNavigationElement">
+                                        <li>
+                                            <a itemprop="url" href="https://smartpravo.com/solutions">Готовые решения</a>
+                                        </li>
+                                        <li>
+                                            <a itemprop="url" href="https://smartpravo.com/docorder">Заказать документ</a>
+                                        </li>
+                                        <li>
+                                            <a itemprop="url" href="https://smartpravo.com/faq">Вопросы</a>
+                                        </li>
+                                        <li>
+                                            <a itemprop="url" href="https://smartpravo.com/how-it-works">Как пользоваться сервисом</a>
+                                        </li>
+                                        <li>
+                                            <a itemprop="url" href="https://smartpravo.com/contacts">Контакты</a>
+                                        </li>
+                                    </ul>
+
+                                </div>
+                                <div class="header__search">
+                                    <div class="header__searchblock">
+                                        <div class="header__searchvisible">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M11.4601 10.3185L15.7639 14.6223C15.9151 14.7737 16.0001 14.979 16 15.193C15.9999 15.407 15.9148 15.6122 15.7635 15.7635C15.6121 15.9147 15.4068 15.9997 15.1928 15.9996C14.9788 15.9995 14.7736 15.9144 14.6223 15.7631L10.3185 11.4593C9.03194 12.4558 7.41407 12.9247 5.79403 12.7707C4.17398 12.6167 2.67346 11.8513 1.59771 10.6302C0.521957 9.40911 -0.0482098 7.82408 0.00319691 6.19754C0.0546036 4.57101 0.723722 3.02514 1.87443 1.87443C3.02514 0.723722 4.57101 0.0546036 6.19754 0.00319691C7.82408 -0.0482098 9.40911 0.521957 10.6302 1.59771C11.8513 2.67346 12.6167 4.17398 12.7707 5.79403C12.9247 7.41407 12.4558 9.03194 11.4593 10.3185H11.4601ZM6.4003 11.1993C7.67328 11.1993 8.89412 10.6936 9.79425 9.79345C10.6944 8.89332 11.2001 7.67248 11.2001 6.3995C11.2001 5.12652 10.6944 3.90568 9.79425 3.00554C8.89412 2.10541 7.67328 1.59972 6.4003 1.59972C5.12732 1.59972 3.90648 2.10541 3.00634 3.00554C2.10621 3.90568 1.60052 5.12652 1.60052 6.3995C1.60052 7.67248 2.10621 8.89332 3.00634 9.79345C3.90648 10.6936 5.12732 11.1993 6.4003 11.1993Z" fill="#DBB468"></path>
+                                            </svg>
+                                        </div>
+                                        <div class="header__searchhiden">
+                                            <div class="header__searchrow">
+                                                <div class="searchblock">
+                                                    <form method="get" action="https://smartpravo.com/search">
+                                                        <div class="searchblock__inside">
+                                                            <div class="searchblock__label">
+                                                                <input type="text" placeholder="Поиск " class="searchblock__input" name="s" required="" id="search_top">
+                                                            </div>
+                                                            <button type="submit" class="searchblock__btn">
+                                                                <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M9.69334 11.4333C12.2707 11.4333 14.36 9.34397 14.36 6.76664C14.36 4.18931 12.2707 2.09998 9.69334 2.09998C7.11601 2.09998 5.02667 4.18931 5.02667 6.76664C5.02667 9.34397 7.11601 11.4333 9.69334 11.4333Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="bevel"></path>
+                                                                    <path d="M6.3134 10.24L3.18674 13.3667" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="bevel"></path>
+                                                                </svg>
+                                                            </button>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mobilemenu">
+                        <div class="hamburger ">
+                            <span></span><span></span><span></span><span></span>
+                        </div>
+                        <div class="mobilemenu__inside">
+                            <div class="mobilemenu__menu">
+                                <ul>
+                                    <li>
+                                        <a href="https://smartpravo.com/solutions">Готовые решения</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://smartpravo.com/docorder">Заказать документ</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://smartpravo.com/faq">Вопросы</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://smartpravo.com/how-it-works">Как пользоваться сервисом</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://smartpravo.com/contacts">Контакты</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="mobilemenu__bottom">
+
+                                <div class="mobilemenu__social">
+                                    <div class="footer__social">
+                                        <ul>
+
+                                            <li>
+                                                <a href="https://www.instagram.com/smart_pravo/" target="_blank">
+                                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M23.1195 7.36864C23.0663 6.16342 22.8714 5.33484 22.5923 4.61687C22.3042 3.85476 21.8611 3.17244 21.2806 2.60523C20.7134 2.02919 20.0266 1.58158 19.2733 1.29806C18.5511 1.01887 17.7269 0.823972 16.5217 0.770834C15.3075 0.713195 14.922 0.699867 11.8424 0.699867C8.7628 0.699867 8.37733 0.713195 7.16761 0.766333C5.96239 0.819472 5.13382 1.01454 4.41602 1.29356C3.65373 1.58158 2.97142 2.02469 2.4042 2.60523C1.82816 3.17244 1.38073 3.85926 1.09704 4.61254C0.817843 5.33484 0.622945 6.15892 0.569807 7.36414C0.512168 8.57835 0.49884 8.96382 0.49884 12.0434C0.49884 15.123 0.512168 15.5085 0.565306 16.7182C0.618445 17.9234 0.813516 18.752 1.09271 19.47C1.38073 20.2321 1.82816 20.9144 2.4042 21.4816C2.97142 22.0577 3.65823 22.5053 4.41152 22.7888C5.13382 23.068 5.95789 23.2629 7.16328 23.316C8.37283 23.3693 8.75847 23.3825 11.8381 23.3825C14.9177 23.3825 15.3031 23.3693 16.5129 23.316C17.7181 23.2629 18.5466 23.068 19.2644 22.7888C20.7888 22.1994 21.9941 20.9942 22.5834 19.47C22.8624 18.7477 23.0575 17.9234 23.1107 16.7182C23.1638 15.5085 23.1771 15.123 23.1771 12.0434C23.1771 8.96382 23.1726 8.57835 23.1195 7.36864ZM21.0769 16.6296C21.0281 17.7374 20.842 18.3355 20.6869 18.7343C20.3058 19.7225 19.5215 20.5068 18.5333 20.8879C18.1345 21.043 17.532 21.2291 16.4286 21.2777C15.2322 21.331 14.8734 21.3442 11.8469 21.3442C8.82044 21.3442 8.45712 21.331 7.26506 21.2777C6.15729 21.2291 5.55909 21.043 5.1603 20.8879C4.66855 20.7062 4.22094 20.4182 3.85763 20.0415C3.48099 19.6737 3.19297 19.2306 3.01123 18.7388C2.85614 18.34 2.67007 17.7374 2.62143 16.6341C2.56812 15.4377 2.55496 15.0787 2.55496 12.0522C2.55496 9.02579 2.56812 8.66248 2.62143 7.47059C2.67007 6.36282 2.85614 5.76462 3.01123 5.36582C3.19297 4.87391 3.48099 4.42647 3.86213 4.06298C4.22977 3.68634 4.67288 3.39832 5.1648 3.21675C5.5636 3.06167 6.16629 2.87559 7.26956 2.82678C8.46595 2.77365 8.82494 2.76032 11.8512 2.76032C14.8822 2.76032 15.241 2.77365 16.4331 2.82678C17.5408 2.87559 18.139 3.06167 18.5378 3.21675C19.0296 3.39832 19.4772 3.68634 19.8405 4.06298C20.2171 4.4308 20.5051 4.87391 20.6869 5.36582C20.842 5.76462 21.0281 6.36714 21.0769 7.47059C21.13 8.66698 21.1433 9.02579 21.1433 12.0522C21.1433 15.0787 21.13 15.4332 21.0769 16.6296ZM11.8418 6.21663C8.62498 6.21663 6.01497 8.82647 6.01497 12.0435C6.01497 15.2605 8.62498 17.8704 11.8418 17.8704C15.0589 17.8704 17.6687 15.2605 17.6687 12.0435C17.6687 8.82647 15.0589 6.21663 11.8418 6.21663ZM11.8418 15.8232C9.75491 15.8232 8.0621 14.1306 8.0621 12.0435C8.0621 9.95639 9.75491 8.26375 11.8418 8.26375C13.9289 8.26375 15.6216 9.95639 15.6216 12.0435C15.6216 14.1306 13.9289 15.8232 11.8418 15.8232ZM17.9017 7.34642C18.653 7.34642 19.2621 6.73732 19.2621 5.98612C19.2621 5.23474 18.653 4.62581 17.9017 4.62581C17.1504 4.62581 16.5413 5.23474 16.5413 5.98612C16.5413 6.73732 17.1504 7.34642 17.9017 7.34642Z" fill="white"></path>
+                                                    </svg>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://vm.tiktok.com/ZSe3pn9Jt/" target="_blank">
+                                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M11.5291 8.68029C11.5159 16.3282 11.5089 16.9686 11.437 17.235C11.341 17.59 11.1002 18.1205 10.9068 18.4029C10.4709 19.0395 9.73743 19.5499 8.93788 19.773C8.58678 19.871 7.94278 19.9006 7.55718 19.8363C6.66089 19.6871 5.8254 19.1695 5.31608 18.448C4.90703 17.8685 4.71359 17.3204 4.67371 16.6278C4.63157 15.8957 4.80676 15.2113 5.19073 14.6083C5.53464 14.0681 6.14075 13.545 6.7197 13.2888C7.31177 13.0268 8.15165 12.9432 8.80208 13.0816C8.97632 13.1188 9.12403 13.1491 9.13028 13.1491C9.13648 13.1491 9.1416 12.2907 9.1416 11.2415V9.33403L8.92657 9.29901C8.59963 9.24584 7.4445 9.26094 7.03658 9.32376C5.29132 9.59243 3.7949 10.408 2.60523 11.7391C1.75987 12.6849 1.16431 13.9418 0.942945 15.2472C0.861234 15.7289 0.850868 15.9311 0.870741 16.6514C0.894688 17.5172 0.956345 17.917 1.17585 18.6299C1.32348 19.1092 1.72692 19.9316 2.06675 20.446C2.48948 21.0858 3.34493 21.9412 3.99671 22.3759C4.81599 22.9224 5.62328 23.267 6.5948 23.485C6.97515 23.5703 7.17827 23.5844 8.05514 23.5859C8.86591 23.5873 9.14965 23.5712 9.44612 23.5069C10.4906 23.2804 11.3029 22.9447 12.118 22.4027C12.5127 22.1402 12.7965 21.9012 13.2177 21.4765C13.581 21.1103 13.8883 20.7492 14.0709 20.4739C14.5994 19.6771 14.9527 18.8572 15.1723 17.9181C15.2708 17.4968 15.2719 17.4487 15.2863 12.7511C15.2944 10.1432 15.3114 8.0094 15.3242 8.0094C15.3369 8.0094 15.4534 8.08736 15.5831 8.18261C16.4977 8.85468 17.7737 9.43656 18.9467 9.71656C19.5162 9.85246 20.3568 9.96522 20.8007 9.96522H21.1379V8.07763V6.19004H20.8226C20.6492 6.19004 20.3065 6.15093 20.0609 6.10308C18.8445 5.86615 17.7826 5.28441 16.929 4.38719C16.0066 3.41779 15.4768 2.26837 15.3332 0.925269L15.2786 0.413574H13.411H11.5434L11.5291 8.68029Z" fill="white"></path>
+                                                    </svg>
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="https://www.youtube.com/channel/UC9hbQUfpmfi_f_equkpZt1g" target="_blank">
+                                                    <svg width="30" height="22" viewBox="0 0 30 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M26.7379 1.1425C28.0229 1.48846 29.0361 2.50164 29.3821 3.78664C30.0246 6.13424 29.9999 11.0271 29.9999 11.0271C29.9999 11.0271 29.9999 15.8953 29.3821 18.2429C29.0361 19.5279 28.0229 20.5411 26.7379 20.8871C24.3903 21.5049 14.9999 21.5049 14.9999 21.5049C14.9999 21.5049 5.63424 21.5049 3.26193 20.8624C1.97693 20.5164 0.963752 19.5032 0.61779 18.2182C0 15.8953 0 11.0024 0 11.0024C0 11.0024 0 6.13424 0.61779 3.78664C0.963752 2.50164 2.00164 1.46375 3.26193 1.11779C5.60953 0.5 14.9999 0.5 14.9999 0.5C14.9999 0.5 24.3903 0.5 26.7379 1.1425ZM19.8187 11.0024L12.0098 15.4999V6.50492L19.8187 11.0024Z" fill="white"></path>
+                                                    </svg>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!-- /header -->
+            <div class="containerS">
+                <div class="firstinside section-inner">
+                    <div class="firstinside__title">Юридическая консультация Онлайн</div>
+                    <div class="firstinside__descr">У нас вы можете получичть юридическую консультацию Онлайн. <br>Предоставляется на бесплатной и платной основе. <br>Задайте вопрос прямо сейчас!</div>
+                    <div class="firstinside__btn">
+                        <a href="/add-question" class="btns btns__yellow ">Задать вопрос Онлайн</a>
+                    </div>
+                    <div class="firstinside__subtitle">Почему мы решим ваш вопрос:</div>
+                    <div class="firstinside__row dflex">
+                        <div class="firstinside__item">
+                            <div class="firstinside__itemnumb">1500</div>
+                            <div class="firstinside__itemdescr">
+                                Решенных вопросов
+                            </div>
+                        </div>
+                        <div class="firstinside__item">
+                            <div class="firstinside__itemnumb">1500</div>
+                            <div class="firstinside__itemdescr">
+                                Вопросов в день
+                            </div>
+                        </div>
+                        <div class="firstinside__item">
+                            <div class="firstinside__itemnumb">85%</div>
+                            <div class="firstinside__itemdescr">
+                                Успешность решений
+                            </div>
+                        </div>
+                        <div class="firstinside__item">
+                            <div class="firstinside__itemnumb">100%</div>
+                            <div class="firstinside__itemdescr">
+                                Гарантия на возврат средств
+                            </div>
+                        </div>
+                        <div class="firstinside__item">
+                            <div class="firstinside__itemnumb">1500</div>
+                            <div class="firstinside__itemdescr">
+                                Онлайн юристов
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
             </div>
-        </header>
-        <!-- /header -->
-
-        <!-- page -->
-        <div class="page">
-            2222
         </div>
-        <!-- /page -->
+
+
+        <!--videoblock-->
+        <div class="videoblock section-inner">
+            <div class="containerS dflex">
+                <div class="videoblock__left">
+                    <div class="item-tile-video js-video" data-video="https://www.youtube.com/embed/0_8Hzc3xcwE">
+                        <div class="tile-bg">
+                            <img src="./img/video.jpg" alt="" class="img-bg-cover">
+                        </div>
+                        <a href="" class="button-ico js-btn-video">
+                            <img src="./img/icons/play.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="videoblock__right">
+                    <h2>Присоединяйтесь к нам на&nbsp;YouTube</h2>
+                    <h4>На канале множество полезных данных, с которыми люди ежедневно могут столкнутся. <br>Знайте свои права!</h4>
+                    <div class="videoblock__rightbtn">
+                        <a href="https://www.youtube.com/watch?v=0_8Hzc3xcwE" class="videomagnificjs btns btns__yellow">Смотреть</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/videoblock-->
+
+        <!--services-->
+        <div class="services section-inner">
+            <div class="containerS containerS_small">
+                <div class="services__inside">
+                    <h2 class="titles">Наши услуги</h2>
+                    <p class="subtitles">
+                        Для современного мира повышение уровня гражданского сознания требует определения и уточнения существующих финансовых и административных условий. Но повышение уровня гражданского сознания способствует подготовке и реализации новых принципов формирования.
+                    </p>
+                    <div class="services__row dflex">
+                        <div class="services__item">
+                            <div class="services__top">
+                                <div class="services__icon">
+                                    <img src="./img/icons/srv01.svg" alt="">
+                                </div>
+                                <div class="services__title"><a href="">Сделки с недвижимостью</a></div>
+                            </div>
+                            <div class="services__bottom">Повседневная практика показывает, что синтетическое тестирование, в своём.</div>
+                        </div>
+                        <div class="services__item">
+                            <div class="services__top">
+                                <div class="services__icon">
+                                    <img src="./img/icons/srv02.svg" alt="">
+                                </div>
+                                <div class="services__title"><a href="">Расторжение брака</a></div>
+                            </div>
+                            <div class="services__bottom">Повседневная практика показывает, что синтетическое тестирование, в своём.</div>
+                        </div>
+                        <div class="services__item">
+                            <div class="services__top">
+                                <div class="services__icon">
+                                    <img src="./img/icons/srv03.svg" alt="">
+                                </div>
+                                <div class="services__title"><a href="">Наследственные споры</a></div>
+                            </div>
+                            <div class="services__bottom">Повседневная практика показывает, что синтетическое тестирование, в своём.</div>
+                        </div>
+                        <div class="services__item">
+                            <div class="services__top">
+                                <div class="services__icon">
+                                    <img src="./img/icons/srv04.svg" alt="">
+                                </div>
+                                <div class="services__title"><a href="">Земельные споры</a></div>
+                            </div>
+                            <div class="services__bottom">Повседневная практика показывает, что синтетическое тестирование, в своём.</div>
+                        </div>
+                        <div class="services__item">
+                            <div class="services__top">
+                                <div class="services__icon">
+                                    <img src="./img/icons/srv05.svg" alt="">
+                                </div>
+                                <div class="services__title"><a href="">Взыскание долгов</a></div>
+                            </div>
+                            <div class="services__bottom">Повседневная практика показывает, что синтетическое тестирование, в своём.</div>
+                        </div>
+                        <div class="services__item">
+                            <div class="services__top">
+                                <div class="services__icon">
+                                    <img src="./img/icons/srv06.svg" alt="">
+                                </div>
+                                <div class="services__title"><a href="">Уголовные дела</a></div>
+                            </div>
+                            <div class="services__bottom">Повседневная практика показывает, что синтетическое тестирование, в своём.</div>
+                        </div>
+                        <div class="services__item">
+                            <div class="services__top">
+                                <div class="services__icon">
+                                    <img src="./img/icons/srv07.svg" alt="">
+                                </div>
+                                <div class="services__title"><a href="">Исполнительное производство</a></div>
+                            </div>
+                            <div class="services__bottom">Повседневная практика показывает, что синтетическое тестирование, в своём.</div>
+                        </div>
+                        <div class="services__item">
+                            <div class="services__top">
+                                <div class="services__icon">
+                                    <img src="./img/icons/srv08.svg" alt="">
+                                </div>
+                                <div class="services__title"><a href="">Налоговые консультации</a></div>
+                            </div>
+                            <div class="services__bottom">Повседневная практика показывает, что синтетическое тестирование, в своём.</div>
+                        </div>
+                        <div class="services__item">
+                            <div class="services__top">
+                                <div class="services__icon">
+                                    <img src="./img/icons/srv09.svg" alt="">
+                                </div>
+                                <div class="services__title"><a href="">Защита прав потребителей</a></div>
+                            </div>
+                            <div class="services__bottom">Повседневная практика показывает, что синтетическое тестирование, в своём.</div>
+                        </div>
+                        <div class="services__item">
+                            <div class="services__top">
+                                <div class="services__icon">
+                                    <img src="./img/icons/srv10.svg" alt="">
+                                </div>
+                                <div class="services__title"><a href="">Трудовые споры</a></div>
+                            </div>
+                            <div class="services__bottom">Повседневная практика показывает, что синтетическое тестирование, в своём.</div>
+                        </div>
+                        <div class="services__item">
+                            <div class="services__top">
+                                <div class="services__icon">
+                                    <img src="./img/icons/srv11.svg" alt="">
+                                </div>
+                                <div class="services__title"><a href="">Страховые споры</a></div>
+                            </div>
+                            <div class="services__bottom">Повседневная практика показывает, что синтетическое тестирование, в своём.</div>
+                        </div>
+                        <div class="services__item">
+                            <div class="services__top">
+                                <div class="services__icon">
+                                    <img src="./img/icons/srv12.svg" alt="">
+                                </div>
+                                <div class="services__title"><a href="">Помощь при ДТП</a></div>
+                            </div>
+                            <div class="services__bottom">Повседневная практика показывает, что синтетическое тестирование, в своём.</div>
+                        </div>
+                    </div>
+                    <div class="serviceshowmorerow">
+                        <div class="serviceshowmore btns__yellow btns">Развернуть еще</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/services-->
+
+        <!--teams-->
+        <div class="team section-inner">
+            <div class="containerS_small containerS">
+                <div class="team__inside">
+                    <h2 class="titles">Лучшие юристы нашего сайта</h2>
+                    <p class="subtitles">
+                        Идейные соображения высшего порядка, а также постоянное информационно-пропагандистское обеспечение нашей деятельности создаёт предпосылки для позиций, занимаемых участниками в отношении.
+                    </p>
+                    <div class="question__filterrow dflex">
+                        <div class="question__filteritem">
+                            <div class="searchblock__inside">
+                                <form action="" method="get">
+                                    <div class="searchblock__label">
+                                        <input type="text" placeholder="Найти юриста" class="searchblock__input ui-autocomplete-input" name="s" required="" id="search_index" autocomplete="off">
+                                    </div>
+                                    <button type="submit" class="searchblock__btn">
+                                        <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9.69334 11.4333C12.2707 11.4333 14.36 9.34397 14.36 6.76664C14.36 4.18931 12.2707 2.09998 9.69334 2.09998C7.11601 2.09998 5.02667 4.18931 5.02667 6.76664C5.02667 9.34397 7.11601 11.4333 9.69334 11.4333Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="bevel"></path>
+                                            <path d="M6.3134 10.24L3.18674 13.3667" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="bevel"></path>
+                                        </svg>
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team__slider">
+                        <div class="team__sliderjs">
+                            <div class="team__item">
+                                <div class="team__iteminside">
+                                    <div class="team__img">
+                                        <img src="./img/team01.jpg" alt="" class="img-bg-cover">
+                                    </div>
+                                    <div class="team__title"><a href="">Алексей Иванов</a></div>
+                                    <div class="team__profes">адвокат </div>
+                                    <div class="team__items-inner">
+                                        <div class="team__item-inner">
+                                            <div class="team__item-total">145</div>
+                                            <div class="team__item-title">разрешенных вопросов</div>
+                                        </div>
+                                        <div class="team__item-inner">
+                                            <div class="team__item-total">4,3</div>
+                                            <div class="team__item-title">общий рейтинг юриста</div>
+                                        </div>
+                                        <div class="team__item-inner">
+                                            <div class="team__item-total">120</div>
+                                            <div class="team__item-title">положительных отзывов</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="team__item">
+                                <div class="team__iteminside">
+                                    <div class="team__img">
+                                        <img src="./img/team02.jpg" alt="" class="img-bg-cover">
+                                    </div>
+                                    <div class="team__title"><a href="">Алексей Иванов</a></div>
+                                    <div class="team__profes">адвокат </div>
+                                    <div class="team__items-inner">
+                                        <div class="team__item-inner">
+                                            <div class="team__item-total">145</div>
+                                            <div class="team__item-title">разрешенных вопросов</div>
+                                        </div>
+                                        <div class="team__item-inner">
+                                            <div class="team__item-total">4,3</div>
+                                            <div class="team__item-title">общий рейтинг юриста</div>
+                                        </div>
+                                        <div class="team__item-inner">
+                                            <div class="team__item-total">120</div>
+                                            <div class="team__item-title">положительных отзывов</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="team__item">
+                                <div class="team__iteminside">
+                                    <div class="team__img">
+                                        <img src="./img/team03.jpg" alt="" class="img-bg-cover">
+                                    </div>
+                                    <div class="team__title"><a href="">Алексей Иванов</a></div>
+                                    <div class="team__profes">адвокат </div>
+                                    <div class="team__items-inner">
+                                        <div class="team__item-inner">
+                                            <div class="team__item-total">145</div>
+                                            <div class="team__item-title">разрешенных вопросов</div>
+                                        </div>
+                                        <div class="team__item-inner">
+                                            <div class="team__item-total">4,3</div>
+                                            <div class="team__item-title">общий рейтинг юриста</div>
+                                        </div>
+                                        <div class="team__item-inner">
+                                            <div class="team__item-total">120</div>
+                                            <div class="team__item-title">положительных отзывов</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="team__item">
+                                <div class="team__iteminside">
+                                    <div class="team__img">
+                                        <img src="./img/team01.jpg" alt="" class="img-bg-cover">
+                                    </div>
+                                    <div class="team__title"><a href="">Алексей Иванов</a></div>
+                                    <div class="team__profes">адвокат </div>
+                                    <div class="team__items-inner">
+                                        <div class="team__item-inner">
+                                            <div class="team__item-total">145</div>
+                                            <div class="team__item-title">разрешенных вопросов</div>
+                                        </div>
+                                        <div class="team__item-inner">
+                                            <div class="team__item-total">4,3</div>
+                                            <div class="team__item-title">общий рейтинг юриста</div>
+                                        </div>
+                                        <div class="team__item-inner">
+                                            <div class="team__item-total">120</div>
+                                            <div class="team__item-title">положительных отзывов</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="team__item">
+                                <div class="team__iteminside">
+                                    <div class="team__img">
+                                        <img src="./img/team02.jpg" alt="" class="img-bg-cover">
+                                    </div>
+                                    <div class="team__title"><a href="">Алексей Иванов</a></div>
+                                    <div class="team__profes">адвокат </div>
+                                    <div class="team__items-inner">
+                                        <div class="team__item-inner">
+                                            <div class="team__item-total">145</div>
+                                            <div class="team__item-title">разрешенных вопросов</div>
+                                        </div>
+                                        <div class="team__item-inner">
+                                            <div class="team__item-total">4,3</div>
+                                            <div class="team__item-title">общий рейтинг юриста</div>
+                                        </div>
+                                        <div class="team__item-inner">
+                                            <div class="team__item-total">120</div>
+                                            <div class="team__item-title">положительных отзывов</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="team__item">
+                                <div class="team__iteminside">
+                                    <div class="team__img">
+                                        <img src="./img/team03.jpg" alt="" class="img-bg-cover">
+                                    </div>
+                                    <div class="team__title"><a href="">Алексей Иванов</a></div>
+                                    <div class="team__profes">адвокат </div>
+                                    <div class="team__items-inner">
+                                        <div class="team__item-inner">
+                                            <div class="team__item-total">145</div>
+                                            <div class="team__item-title">разрешенных вопросов</div>
+                                        </div>
+                                        <div class="team__item-inner">
+                                            <div class="team__item-total">4,3</div>
+                                            <div class="team__item-title">общий рейтинг юриста</div>
+                                        </div>
+                                        <div class="team__item-inner">
+                                            <div class="team__item-total">120</div>
+                                            <div class="team__item-title">положительных отзывов</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="team__item">
+                                <div class="team__iteminside">
+                                    <div class="team__img">
+                                        <img src="./img/team01.jpg" alt="" class="img-bg-cover">
+                                    </div>
+                                    <div class="team__title"><a href="">Алексей Иванов</a></div>
+                                    <div class="team__profes">адвокат </div>
+                                    <div class="team__items-inner">
+                                        <div class="team__item-inner">
+                                            <div class="team__item-total">145</div>
+                                            <div class="team__item-title">разрешенных вопросов</div>
+                                        </div>
+                                        <div class="team__item-inner">
+                                            <div class="team__item-total">4,3</div>
+                                            <div class="team__item-title">общий рейтинг юриста</div>
+                                        </div>
+                                        <div class="team__item-inner">
+                                            <div class="team__item-total">120</div>
+                                            <div class="team__item-title">положительных отзывов</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="team__item">
+                                <div class="team__iteminside">
+                                    <div class="team__img">
+                                        <img src="./img/team02.jpg" alt="" class="img-bg-cover">
+                                    </div>
+                                    <div class="team__title"><a href="">Алексей Иванов</a></div>
+                                    <div class="team__profes">адвокат </div>
+                                    <div class="team__items-inner">
+                                        <div class="team__item-inner">
+                                            <div class="team__item-total">145</div>
+                                            <div class="team__item-title">разрешенных вопросов</div>
+                                        </div>
+                                        <div class="team__item-inner">
+                                            <div class="team__item-total">4,3</div>
+                                            <div class="team__item-title">общий рейтинг юриста</div>
+                                        </div>
+                                        <div class="team__item-inner">
+                                            <div class="team__item-total">120</div>
+                                            <div class="team__item-title">положительных отзывов</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="team__item">
+                                <div class="team__iteminside">
+                                    <div class="team__img">
+                                        <img src="./img/team03.jpg" alt="" class="img-bg-cover">
+                                    </div>
+                                    <div class="team__title"><a href="">Алексей Иванов</a></div>
+                                    <div class="team__profes">адвокат </div>
+                                    <div class="team__items-inner">
+                                        <div class="team__item-inner">
+                                            <div class="team__item-total">145</div>
+                                            <div class="team__item-title">разрешенных вопросов</div>
+                                        </div>
+                                        <div class="team__item-inner">
+                                            <div class="team__item-total">4,3</div>
+                                            <div class="team__item-title">общий рейтинг юриста</div>
+                                        </div>
+                                        <div class="team__item-inner">
+                                            <div class="team__item-total">120</div>
+                                            <div class="team__item-title">положительных отзывов</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team__scale">
+                            <img src="./img/scale.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/teams-->
+
+        <!--info-title-box-->
+        <div class="info-title-box">
+            <div class="containerS containerS_small">
+                <div class="title-inner-wrap">
+                    <h2 class="inner-title">Вы юрист и вам <br>нужна работа? <span class="title-att">Регистрируйтесь!</span></h2>
+                </div>
+                <div class="action-inner-wrap">
+                    <a href="" class="btns btns__yellow">Зарегистрироваться</a>
+                </div>
+            </div>
+        </div>
+        <!--/info-title-box-->
+
+        <!--solutions-box-->
+        <div class="solutions-box section-inner">
+            <div class="containerS">
+                <h2 class="titles">Самые популярные вопросы</h2>
+                <p class="subtitles">
+                    Для современного мира повышение уровня гражданского сознания требует определения и уточнения существующих финансовых и административных условий. Но повышение уровня гражданского сознания способствует подготовке и реализации новых принципов формирования.</p>
+                <div class="question__filter">
+                    <div class="question__filtertitle dflex"><strong>Найти вопрос </strong></div>
+                    <div class="question__filterrow dflex">
+                        <div class="question__filteritem">
+                            <div class="searchblock__inside">
+                                <form action="" method="get">
+                                    <div class="searchblock__label">
+                                        <input type="text" placeholder="По теме" class="searchblock__input ui-autocomplete-input" name="s" required="" id="search_index" autocomplete="off">
+                                    </div>
+                                    <button type="submit" class="searchblock__btn">
+                                        <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9.69334 11.4333C12.2707 11.4333 14.36 9.34397 14.36 6.76664C14.36 4.18931 12.2707 2.09998 9.69334 2.09998C7.11601 2.09998 5.02667 4.18931 5.02667 6.76664C5.02667 9.34397 7.11601 11.4333 9.69334 11.4333Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="bevel"></path>
+                                            <path d="M6.3134 10.24L3.18674 13.3667" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="bevel"></path>
+                                        </svg>
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="question__filteritem">
+                            <div class="searchblock__inside">
+                                <form action="" method="get">
+                                    <select class="searchblock__input">
+                                        <option>По автору</option>
+                                    </select>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="items-wrap">
+                    <!--item wrap-->
+                    <div class="item-wrap">
+                        <div class="item-tile-solution">
+                            <div class="tile-title-wrap">
+                                <div class="tile-title">Помощь в получении ипотеки Уфа</div>
+                                <div class="tile-ico">
+                                    <img src="./img/solution.png" alt="">
+                                </div>
+                            </div>
+                            <div class="tile-info-wrap">
+                                <p>Решение создано: <b>22.01.2021 года в 13:00</b></p>
+                                <p>Автор: <b>Игнатов Андрей</b></p>
+                                <p>Колличество людей, которые использовали данное решение: <b>12</b></p>
+                                <p>Возможность скачать документы: <b>Есть</b></p>
+                            </div>
+                            <div class="tile-bottom-wrap">
+                                <p>Категория: <b>Гражданское право</b></p>
+                            </div>
+                            <div class="tile-price-wrap">
+                                <div class="tile-price price-text">Бесплатно</div>
+                                <div class="tile-action">
+                                    <a href="" class="btns btns__border">Подробнее</a>
+                                </div>
+                            </div>
+                            <div class="tile-action-wrap">
+                                <a href="" class="btns btns__yellow"><span class="button-title">Получить готовое решение</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/item wrap-->
+                    <!--item wrap-->
+                    <div class="item-wrap">
+                        <div class="item-tile-solution">
+                            <div class="tile-title-wrap">
+                                <div class="tile-title">Адвокат по мошенничеству ст. 159 УК РФ Санкт-Петербург</div>
+                                <div class="tile-ico tile-ico-color-second">
+                                    <img src="./img/solution.png" alt="">
+                                </div>
+                            </div>
+                            <div class="tile-info-wrap">
+                                <p>Решение создано: <b>22.01.2021 года в 13:00</b></p>
+                                <p>Автор: <b>Игнатов Андрей</b></p>
+                                <p>Колличество людей, которые использовали данное решение: <b>12</b></p>
+                                <p>Возможность скачать документы: <b>Есть</b></p>
+                            </div>
+                            <div class="tile-bottom-wrap">
+                                <p>Категория: <b>Защита трудовой репутации</b></p>
+                            </div>
+                            <div class="tile-price-wrap">
+                                <div class="tile-price">5000 ₽</div>
+                                <div class="tile-action">
+                                    <a href="" class="btns btns__border">Подробнее</a>
+                                </div>
+                            </div>
+                            <div class="tile-action-wrap">
+                                <a href="" class="btns btns__yellow"><span class="button-title">Авторизируйтесь для покупки</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/item wrap-->
+                    <!--item wrap-->
+                    <div class="item-wrap">
+                        <div class="item-tile-solution">
+                            <div class="tile-title-wrap">
+                                <div class="tile-title">Адвокат по мошенничеству ст. 159 УК РФ Санкт-Петербург</div>
+                                <div class="tile-ico tile-ico-color-second">
+                                    <img src="./img/solution.png" alt="">
+                                </div>
+                            </div>
+                            <div class="tile-info-wrap">
+                                <p>Решение создано: <b>22.01.2021 года в 13:00</b></p>
+                                <p>Автор: <b>Игнатов Андрей</b></p>
+                                <p>Колличество людей, которые использовали данное решение: <b>12</b></p>
+                                <p>Возможность скачать документы: <b>Есть</b></p>
+                            </div>
+                            <div class="tile-bottom-wrap">
+                                <p>Категория: <b>Защита трудовой репутации</b></p>
+                            </div>
+                            <div class="tile-price-wrap">
+                                <div class="tile-price">5000 ₽</div>
+                                <div class="tile-action">
+                                    <a href="" class="btns btns__border">Подробнее</a>
+                                </div>
+                            </div>
+                            <div class="tile-action-wrap">
+                                <a href="" class="btns btns__yellow"><span class="button-title">Авторизируйтесь для покупки</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/item wrap-->
+                    <!--item wrap-->
+                    <div class="item-wrap">
+                        <div class="item-tile-solution">
+                            <div class="tile-title-wrap">
+                                <div class="tile-title">Адвокат по мошенничеству ст. 159 УК РФ Санкт-Петербург</div>
+                                <div class="tile-ico tile-ico-color-second">
+                                    <img src="./img/solution.png" alt="">
+                                </div>
+                            </div>
+                            <div class="tile-info-wrap">
+                                <p>Решение создано: <b>22.01.2021 года в 13:00</b></p>
+                                <p>Автор: <b>Игнатов Андрей</b></p>
+                                <p>Колличество людей, которые использовали данное решение: <b>12</b></p>
+                                <p>Возможность скачать документы: <b>Есть</b></p>
+                            </div>
+                            <div class="tile-bottom-wrap">
+                                <p>Категория: <b>Защита от штрафов по Закону №152-ФЗ</b></p>
+                            </div>
+                            <div class="tile-price-wrap">
+                                <div class="tile-price">5000 ₽</div>
+                                <div class="tile-action">
+                                    <a href="" class="btns btns__border">Подробнее</a>
+                                </div>
+                            </div>
+                            <div class="tile-action-wrap">
+                                <a href="" class="btns btns__yellow"><span class="button-title">Авторизируйтесь для покупки</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/item wrap-->
+                </div>
+                <div class="more-box">
+                    <a href="">Все решения</a>
+                </div>
+            </div>
+        </div>
+        <!--/solutions-box-->
+
+        <!--reviews-tiles-box-->
+        <div class="reviews-tiles-box">
+            <div class="containerS">
+                <h2 class="titles">Отзывы о нашей работе</h2>
+                <p class="subtitles">Вот вам яркий пример современных тенденций - внедрение современных методик представляет собой интересный эксперимент проверки благоприятных перспектив. А также.</p>
+                <div class="reviews__slider">
+                    <div class="reviews_sliderjs">
+                        <!--sl-wrap-->
+                        <div class="sl-wrap">
+                            <div class="reference__iteminside referencepage__item">
+                                <div class="reference__top">
+                                    <div class="reference__toprow dflex">
+                                        <div class="reference__topleft">
+                                            Иванов Иван
+                                        </div>
+                                        <div class="reference__topright">
+                                            <div class="stars">
+                                                <div class="stars__row">
+                                                    <div class="rate">
+                                                        <input type="radio" id="star_review_2_5" name="rate_2" value="5" checked="">
+                                                        <label for="star_review_2_5" title="text">5 stars</label>
+                                                        <input type="radio" id="star_review_2_4" name="rate_2" value="4">
+                                                        <label for="star_review_2_4" title="text">4 stars</label>
+                                                        <input type="radio" id="star_review_2_3" name="rate_2" value="3">
+                                                        <label for="star_review_2_3" title="text">3 stars</label>
+                                                        <input type="radio" id="star_review_2_2" name="rate_2" value="2">
+                                                        <label for="star_review_2_2" title="text">2 stars</label>
+                                                        <input type="radio" id="star_review_2_1" name="rate_2" value="1">
+                                                        <label for="star_review_2_1" title="text">1 star</label>
+                                                    </div>
+                                                    <div class="rate-total">(25)</div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="reference__profes">
+                                        Адвокат
+                                    </div>
+                                </div>
+                                <div class="reference__center">
+                                    <div class="reference__user">
+                                        <div class="reference__userlogo">
+                                            <div class="reference__logo"></div>
+                                        </div>
+                                        <div class="reference__userdetail">
+                                            <div class="reference__username">Иванов Иван</div>
+                                            <div class="reference__userwork">Руководитель “ООО” Рога и копыта</div>
+                                        </div>
+                                    </div>
+                                    <div class="reference__descr">
+                                        Как уже неоднократно упомянуто, реплицированные с зарубежных источников, современные.
+                                    </div>
+                                    <div class="reference__info">Категория вопросы: <a href="">Тендеры и государственные закупки</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/sl-wrap-->
+                        <!--sl-wrap-->
+                        <div class="sl-wrap">
+                            <div class="reference__iteminside referencepage__item">
+                                <div class="reference__top">
+                                    <div class="reference__toprow dflex">
+                                        <div class="reference__topleft">
+                                            Иванов Иван
+                                        </div>
+                                        <div class="reference__topright">
+                                            <div class="stars">
+                                                <div class="stars__row">
+                                                    <div class="rate">
+                                                        <input type="radio" id="star_review_2_5" name="rate_2" value="5" checked="">
+                                                        <label for="star_review_2_5" title="text">5 stars</label>
+                                                        <input type="radio" id="star_review_2_4" name="rate_2" value="4">
+                                                        <label for="star_review_2_4" title="text">4 stars</label>
+                                                        <input type="radio" id="star_review_2_3" name="rate_2" value="3">
+                                                        <label for="star_review_2_3" title="text">3 stars</label>
+                                                        <input type="radio" id="star_review_2_2" name="rate_2" value="2">
+                                                        <label for="star_review_2_2" title="text">2 stars</label>
+                                                        <input type="radio" id="star_review_2_1" name="rate_2" value="1">
+                                                        <label for="star_review_2_1" title="text">1 star</label>
+                                                    </div>
+                                                    <div class="rate-total">(25)</div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="reference__profes">
+                                        Адвокат
+                                    </div>
+                                </div>
+                                <div class="reference__center">
+                                    <div class="reference__user">
+                                        <div class="reference__userlogo">
+                                            <div class="reference__logo"></div>
+                                        </div>
+                                        <div class="reference__userdetail">
+                                            <div class="reference__username">Иванов Иван</div>
+                                            <div class="reference__userwork">Руководитель “ООО” Рога и копыта</div>
+                                        </div>
+                                    </div>
+                                    <div class="reference__descr">
+                                        Как уже неоднократно упомянуто, реплицированные с зарубежных источников, современные.
+                                    </div>
+                                    <div class="reference__info">Категория вопросы: <a href="">Тендеры и государственные закупки</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/sl-wrap-->
+                        <!--sl-wrap-->
+                        <div class="sl-wrap">
+                            <div class="reference__iteminside referencepage__item">
+                                <div class="reference__top">
+                                    <div class="reference__toprow dflex">
+                                        <div class="reference__topleft">
+                                            Иванов Иван
+                                        </div>
+                                        <div class="reference__topright">
+                                            <div class="stars">
+                                                <div class="stars__row">
+                                                    <div class="rate">
+                                                        <input type="radio" id="star_review_2_5" name="rate_2" value="5" checked="">
+                                                        <label for="star_review_2_5" title="text">5 stars</label>
+                                                        <input type="radio" id="star_review_2_4" name="rate_2" value="4">
+                                                        <label for="star_review_2_4" title="text">4 stars</label>
+                                                        <input type="radio" id="star_review_2_3" name="rate_2" value="3">
+                                                        <label for="star_review_2_3" title="text">3 stars</label>
+                                                        <input type="radio" id="star_review_2_2" name="rate_2" value="2">
+                                                        <label for="star_review_2_2" title="text">2 stars</label>
+                                                        <input type="radio" id="star_review_2_1" name="rate_2" value="1">
+                                                        <label for="star_review_2_1" title="text">1 star</label>
+                                                    </div>
+                                                    <div class="rate-total">(25)</div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="reference__profes">
+                                        Адвокат
+                                    </div>
+                                </div>
+                                <div class="reference__center">
+                                    <div class="reference__user">
+                                        <div class="reference__userlogo">
+                                            <div class="reference__logo"></div>
+                                        </div>
+                                        <div class="reference__userdetail">
+                                            <div class="reference__username">Иванов Иван</div>
+                                            <div class="reference__userwork">Руководитель “ООО” Рога и копыта</div>
+                                        </div>
+                                    </div>
+                                    <div class="reference__descr">
+                                        Как уже неоднократно упомянуто, реплицированные с зарубежных источников, современные.
+                                    </div>
+                                    <div class="reference__info">Категория вопросы: <a href="">Тендеры и государственные закупки</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/sl-wrap-->
+                        <!--sl-wrap-->
+                        <div class="sl-wrap">
+                            <div class="reference__iteminside referencepage__item">
+                                <div class="reference__top">
+                                    <div class="reference__toprow dflex">
+                                        <div class="reference__topleft">
+                                            Иванов Иван
+                                        </div>
+                                        <div class="reference__topright">
+                                            <div class="stars">
+                                                <div class="stars__row">
+                                                    <div class="rate">
+                                                        <input type="radio" id="star_review_2_5" name="rate_2" value="5" checked="">
+                                                        <label for="star_review_2_5" title="text">5 stars</label>
+                                                        <input type="radio" id="star_review_2_4" name="rate_2" value="4">
+                                                        <label for="star_review_2_4" title="text">4 stars</label>
+                                                        <input type="radio" id="star_review_2_3" name="rate_2" value="3">
+                                                        <label for="star_review_2_3" title="text">3 stars</label>
+                                                        <input type="radio" id="star_review_2_2" name="rate_2" value="2">
+                                                        <label for="star_review_2_2" title="text">2 stars</label>
+                                                        <input type="radio" id="star_review_2_1" name="rate_2" value="1">
+                                                        <label for="star_review_2_1" title="text">1 star</label>
+                                                    </div>
+                                                    <div class="rate-total">(25)</div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="reference__profes">
+                                        Адвокат
+                                    </div>
+                                </div>
+                                <div class="reference__center">
+                                    <div class="reference__user">
+                                        <div class="reference__userlogo">
+                                            <div class="reference__logo"></div>
+                                        </div>
+                                        <div class="reference__userdetail">
+                                            <div class="reference__username">Иванов Иван</div>
+                                            <div class="reference__userwork">Руководитель “ООО” Рога и копыта</div>
+                                        </div>
+                                    </div>
+                                    <div class="reference__descr">
+                                        Как уже неоднократно упомянуто, реплицированные с зарубежных источников, современные.
+                                    </div>
+                                    <div class="reference__info">Категория вопросы: <a href="">Тендеры и государственные закупки</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/sl-wrap-->
+                        <!--sl-wrap-->
+                        <div class="sl-wrap">
+                            <div class="reference__iteminside referencepage__item">
+                                <div class="reference__top">
+                                    <div class="reference__toprow dflex">
+                                        <div class="reference__topleft">
+                                            Иванов Иван
+                                        </div>
+                                        <div class="reference__topright">
+                                            <div class="stars">
+                                                <div class="stars__row">
+                                                    <div class="rate">
+                                                        <input type="radio" id="star_review_2_5" name="rate_2" value="5" checked="">
+                                                        <label for="star_review_2_5" title="text">5 stars</label>
+                                                        <input type="radio" id="star_review_2_4" name="rate_2" value="4">
+                                                        <label for="star_review_2_4" title="text">4 stars</label>
+                                                        <input type="radio" id="star_review_2_3" name="rate_2" value="3">
+                                                        <label for="star_review_2_3" title="text">3 stars</label>
+                                                        <input type="radio" id="star_review_2_2" name="rate_2" value="2">
+                                                        <label for="star_review_2_2" title="text">2 stars</label>
+                                                        <input type="radio" id="star_review_2_1" name="rate_2" value="1">
+                                                        <label for="star_review_2_1" title="text">1 star</label>
+                                                    </div>
+                                                    <div class="rate-total">(25)</div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="reference__profes">
+                                        Адвокат
+                                    </div>
+                                </div>
+                                <div class="reference__center">
+                                    <div class="reference__user">
+                                        <div class="reference__userlogo">
+                                            <div class="reference__logo"></div>
+                                        </div>
+                                        <div class="reference__userdetail">
+                                            <div class="reference__username">Иванов Иван</div>
+                                            <div class="reference__userwork">Руководитель “ООО” Рога и копыта</div>
+                                        </div>
+                                    </div>
+                                    <div class="reference__descr">
+                                        Как уже неоднократно упомянуто, реплицированные с зарубежных источников, современные.
+                                    </div>
+                                    <div class="reference__info">Категория вопросы: <a href="">Тендеры и государственные закупки</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/sl-wrap-->
+                        <!--sl-wrap-->
+                        <div class="sl-wrap">
+                            <div class="reference__iteminside referencepage__item">
+                                <div class="reference__top">
+                                    <div class="reference__toprow dflex">
+                                        <div class="reference__topleft">
+                                            Иванов Иван
+                                        </div>
+                                        <div class="reference__topright">
+                                            <div class="stars">
+                                                <div class="stars__row">
+                                                    <div class="rate">
+                                                        <input type="radio" id="star_review_2_5" name="rate_2" value="5" checked="">
+                                                        <label for="star_review_2_5" title="text">5 stars</label>
+                                                        <input type="radio" id="star_review_2_4" name="rate_2" value="4">
+                                                        <label for="star_review_2_4" title="text">4 stars</label>
+                                                        <input type="radio" id="star_review_2_3" name="rate_2" value="3">
+                                                        <label for="star_review_2_3" title="text">3 stars</label>
+                                                        <input type="radio" id="star_review_2_2" name="rate_2" value="2">
+                                                        <label for="star_review_2_2" title="text">2 stars</label>
+                                                        <input type="radio" id="star_review_2_1" name="rate_2" value="1">
+                                                        <label for="star_review_2_1" title="text">1 star</label>
+                                                    </div>
+                                                    <div class="rate-total">(25)</div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="reference__profes">
+                                        Адвокат
+                                    </div>
+                                </div>
+                                <div class="reference__center">
+                                    <div class="reference__user">
+                                        <div class="reference__userlogo">
+                                            <div class="reference__logo"></div>
+                                        </div>
+                                        <div class="reference__userdetail">
+                                            <div class="reference__username">Иванов Иван</div>
+                                            <div class="reference__userwork">Руководитель “ООО” Рога и копыта</div>
+                                        </div>
+                                    </div>
+                                    <div class="reference__descr">
+                                        Как уже неоднократно упомянуто, реплицированные с зарубежных источников, современные.
+                                    </div>
+                                    <div class="reference__info">Категория вопросы: <a href="">Тендеры и государственные закупки</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/sl-wrap-->
+                        <!--sl-wrap-->
+                        <div class="sl-wrap">
+                            <div class="reference__iteminside referencepage__item">
+                                <div class="reference__top">
+                                    <div class="reference__toprow dflex">
+                                        <div class="reference__topleft">
+                                            Иванов Иван
+                                        </div>
+                                        <div class="reference__topright">
+                                            <div class="stars">
+                                                <div class="stars__row">
+                                                    <div class="rate">
+                                                        <input type="radio" id="star_review_2_5" name="rate_2" value="5" checked="">
+                                                        <label for="star_review_2_5" title="text">5 stars</label>
+                                                        <input type="radio" id="star_review_2_4" name="rate_2" value="4">
+                                                        <label for="star_review_2_4" title="text">4 stars</label>
+                                                        <input type="radio" id="star_review_2_3" name="rate_2" value="3">
+                                                        <label for="star_review_2_3" title="text">3 stars</label>
+                                                        <input type="radio" id="star_review_2_2" name="rate_2" value="2">
+                                                        <label for="star_review_2_2" title="text">2 stars</label>
+                                                        <input type="radio" id="star_review_2_1" name="rate_2" value="1">
+                                                        <label for="star_review_2_1" title="text">1 star</label>
+                                                    </div>
+                                                    <div class="rate-total">(25)</div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="reference__profes">
+                                        Адвокат
+                                    </div>
+                                </div>
+                                <div class="reference__center">
+                                    <div class="reference__user">
+                                        <div class="reference__userlogo">
+                                            <div class="reference__logo"></div>
+                                        </div>
+                                        <div class="reference__userdetail">
+                                            <div class="reference__username">Иванов Иван</div>
+                                            <div class="reference__userwork">Руководитель “ООО” Рога и копыта</div>
+                                        </div>
+                                    </div>
+                                    <div class="reference__descr">
+                                        Как уже неоднократно упомянуто, реплицированные с зарубежных источников, современные.
+                                    </div>
+                                    <div class="reference__info">Категория вопросы: <a href="">Тендеры и государственные закупки</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/sl-wrap-->
+                        <!--sl-wrap-->
+                        <div class="sl-wrap">
+                            <div class="reference__iteminside referencepage__item">
+                                <div class="reference__top">
+                                    <div class="reference__toprow dflex">
+                                        <div class="reference__topleft">
+                                            Иванов Иван
+                                        </div>
+                                        <div class="reference__topright">
+                                            <div class="stars">
+                                                <div class="stars__row">
+                                                    <div class="rate">
+                                                        <input type="radio" id="star_review_2_5" name="rate_2" value="5" checked="">
+                                                        <label for="star_review_2_5" title="text">5 stars</label>
+                                                        <input type="radio" id="star_review_2_4" name="rate_2" value="4">
+                                                        <label for="star_review_2_4" title="text">4 stars</label>
+                                                        <input type="radio" id="star_review_2_3" name="rate_2" value="3">
+                                                        <label for="star_review_2_3" title="text">3 stars</label>
+                                                        <input type="radio" id="star_review_2_2" name="rate_2" value="2">
+                                                        <label for="star_review_2_2" title="text">2 stars</label>
+                                                        <input type="radio" id="star_review_2_1" name="rate_2" value="1">
+                                                        <label for="star_review_2_1" title="text">1 star</label>
+                                                    </div>
+                                                    <div class="rate-total">(25)</div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="reference__profes">
+                                        Адвокат
+                                    </div>
+                                </div>
+                                <div class="reference__center">
+                                    <div class="reference__user">
+                                        <div class="reference__userlogo">
+                                            <div class="reference__logo"></div>
+                                        </div>
+                                        <div class="reference__userdetail">
+                                            <div class="reference__username">Иванов Иван</div>
+                                            <div class="reference__userwork">Руководитель “ООО” Рога и копыта</div>
+                                        </div>
+                                    </div>
+                                    <div class="reference__descr">
+                                        Как уже неоднократно упомянуто, реплицированные с зарубежных источников, современные.
+                                    </div>
+                                    <div class="reference__info">Категория вопросы: <a href="">Тендеры и государственные закупки</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/sl-wrap-->
+                        <!--sl-wrap-->
+                        <div class="sl-wrap">
+                            <div class="reference__iteminside referencepage__item">
+                                <div class="reference__top">
+                                    <div class="reference__toprow dflex">
+                                        <div class="reference__topleft">
+                                            Иванов Иван
+                                        </div>
+                                        <div class="reference__topright">
+                                            <div class="stars">
+                                                <div class="stars__row">
+                                                    <div class="rate">
+                                                        <input type="radio" id="star_review_2_5" name="rate_2" value="5" checked="">
+                                                        <label for="star_review_2_5" title="text">5 stars</label>
+                                                        <input type="radio" id="star_review_2_4" name="rate_2" value="4">
+                                                        <label for="star_review_2_4" title="text">4 stars</label>
+                                                        <input type="radio" id="star_review_2_3" name="rate_2" value="3">
+                                                        <label for="star_review_2_3" title="text">3 stars</label>
+                                                        <input type="radio" id="star_review_2_2" name="rate_2" value="2">
+                                                        <label for="star_review_2_2" title="text">2 stars</label>
+                                                        <input type="radio" id="star_review_2_1" name="rate_2" value="1">
+                                                        <label for="star_review_2_1" title="text">1 star</label>
+                                                    </div>
+                                                    <div class="rate-total">(25)</div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="reference__profes">
+                                        Адвокат
+                                    </div>
+                                </div>
+                                <div class="reference__center">
+                                    <div class="reference__user">
+                                        <div class="reference__userlogo">
+                                            <div class="reference__logo"></div>
+                                        </div>
+                                        <div class="reference__userdetail">
+                                            <div class="reference__username">Иванов Иван</div>
+                                            <div class="reference__userwork">Руководитель “ООО” Рога и копыта</div>
+                                        </div>
+                                    </div>
+                                    <div class="reference__descr">
+                                        Как уже неоднократно упомянуто, реплицированные с зарубежных источников, современные.
+                                    </div>
+                                    <div class="reference__info">Категория вопросы: <a href="">Тендеры и государственные закупки</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/sl-wrap-->
+                        <!--sl-wrap-->
+                        <div class="sl-wrap">
+                            <div class="reference__iteminside referencepage__item">
+                                <div class="reference__top">
+                                    <div class="reference__toprow dflex">
+                                        <div class="reference__topleft">
+                                            Иванов Иван
+                                        </div>
+                                        <div class="reference__topright">
+                                            <div class="stars">
+                                                <div class="stars__row">
+                                                    <div class="rate">
+                                                        <input type="radio" id="star_review_2_5" name="rate_2" value="5" checked="">
+                                                        <label for="star_review_2_5" title="text">5 stars</label>
+                                                        <input type="radio" id="star_review_2_4" name="rate_2" value="4">
+                                                        <label for="star_review_2_4" title="text">4 stars</label>
+                                                        <input type="radio" id="star_review_2_3" name="rate_2" value="3">
+                                                        <label for="star_review_2_3" title="text">3 stars</label>
+                                                        <input type="radio" id="star_review_2_2" name="rate_2" value="2">
+                                                        <label for="star_review_2_2" title="text">2 stars</label>
+                                                        <input type="radio" id="star_review_2_1" name="rate_2" value="1">
+                                                        <label for="star_review_2_1" title="text">1 star</label>
+                                                    </div>
+                                                    <div class="rate-total">(25)</div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="reference__profes">
+                                        Адвокат
+                                    </div>
+                                </div>
+                                <div class="reference__center">
+                                    <div class="reference__user">
+                                        <div class="reference__userlogo">
+                                            <div class="reference__logo"></div>
+                                        </div>
+                                        <div class="reference__userdetail">
+                                            <div class="reference__username">Иванов Иван</div>
+                                            <div class="reference__userwork">Руководитель “ООО” Рога и копыта</div>
+                                        </div>
+                                    </div>
+                                    <div class="reference__descr">
+                                        Как уже неоднократно упомянуто, реплицированные с зарубежных источников, современные.
+                                    </div>
+                                    <div class="reference__info">Категория вопросы: <a href="">Тендеры и государственные закупки</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/sl-wrap-->
+                    </div>
+                </div>
+                <div class="more-box">
+                    <a href="">Посмотреть все отзывы</a>
+                </div>
+            </div>
+        </div>
+        <!--/reviews-tiles-box-->
+
+        <!--blogs-tiles-box-->
+        <div class="blogs-tiles-box section-inner">
+            <div class="containerS">
+                <h2 class="titles">Новое в блогах</h2>
+                <div class="items-wrap">
+                    <!--item wrap-->
+                    <div class="item-wrap">
+                        <div class="item-tile-blog">
+                            <a href="" class="tile-link"></a>
+                            <img src="./img/01.jpeg" alt="" class="img-bg-cover">
+                            <div class="tile-title-wrap">
+                                <div class="tile-title">Как выбрать экспертную организацию и не прогадать</div>
+                                <div class="tile-desc">
+                                    <p>В настоящее время многие граждане и организации, юристы и адвокаты, судьи и следователи стоят перед достаточно сложным выбором: как из множества экспертных организаций выбрать именно ту, которая сможет провести серьезное экспертное исследование в рамках гражданского, арбитражного, административного или уголовного дела....</p>
+                                </div>
+                            </div>
+                            <div class="tile-info-wrap">
+                                <div class="tile-actions-wrap">
+                                    <div class="tile-date">20 марта 2023, 14:26</div>
+                                    <div class="tile-actions">
+                                        <div class="tile-action">
+                                            <a href="" class="btn-action-button">
+                                                <span class="button-ico">
+                                                    <img src="./img/icons/like.svg" alt="">
+                                                </span>
+                                                <span class="button-title">152</span>
+                                            </a>
+                                        </div>
+                                        <div class="tile-action">
+                                            <a href="" class="btn-action-button">
+                                                <span class="button-ico button-revert">
+                                                    <img src="./img/icons/like.svg" alt="">
+                                                </span>
+                                                <span class="button-title">152</span>
+                                            </a>
+                                        </div>
+                                        <div class="tile-action">
+                                            <a href="" class="btn-action-button">
+                                                <span class="button-ico">
+                                                    <img src="./img/icons/messages.svg" alt="">
+                                                </span>
+                                                <span class="button-title">152</span>
+                                            </a>
+                                        </div>
+                                        <div class="tile-action">
+                                            <a href="" class="btn-action-button">
+                                                <span class="button-ico">
+                                                    <img src="./img/icons/view.svg" alt="">
+                                                </span>
+                                                <span class="button-title">152</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tile-info-row">Автор: <a href="">Иванов Иван</a></div>
+                                <div class="tile-info-row">Категория блога: <a href="">Тендеры и государственные закупки</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/item wrap-->
+                    <!--item wrap-->
+                    <div class="item-wrap">
+                        <div class="item-tile-blog">
+                            <a href="" class="tile-link"></a>
+                            <img src="./img/02.jpeg" alt="" class="img-bg-cover">
+                            <div class="tile-title-wrap">
+                                <div class="tile-title">GRATA International приняла участие в конвенции PDAC 2023</div>
+                                <div class="tile-desc">
+                                    <p>С 5 по 8 марта 2023 года в Торонто, Канада, состоялась Всемирная конвенция PDAC 2023.Ежегодная конвенция PDAC 2023 — мировая премьера в области минерально-сырьевого поиска и добычи....</p>
+                                </div>
+                            </div>
+                            <div class="tile-info-wrap">
+                                <div class="tile-actions-wrap">
+                                    <div class="tile-date">20 марта 2023, 14:26</div>
+                                    <div class="tile-actions">
+                                        <div class="tile-action">
+                                            <a href="" class="btn-action-button">
+                                                <span class="button-ico">
+                                                    <img src="./img/icons/like.svg" alt="">
+                                                </span>
+                                                <span class="button-title">152</span>
+                                            </a>
+                                        </div>
+                                        <div class="tile-action">
+                                            <a href="" class="btn-action-button">
+                                                <span class="button-ico button-revert">
+                                                    <img src="./img/icons/like.svg" alt="">
+                                                </span>
+                                                <span class="button-title">152</span>
+                                            </a>
+                                        </div>
+                                        <div class="tile-action">
+                                            <a href="" class="btn-action-button">
+                                                <span class="button-ico">
+                                                    <img src="./img/icons/messages.svg" alt="">
+                                                </span>
+                                                <span class="button-title">152</span>
+                                            </a>
+                                        </div>
+                                        <div class="tile-action">
+                                            <a href="" class="btn-action-button">
+                                                <span class="button-ico">
+                                                    <img src="./img/icons/view.svg" alt="">
+                                                </span>
+                                                <span class="button-title">152</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tile-info-row">Автор: <a href="">Иванов Иван</a></div>
+                                <div class="tile-info-row">Категория блога: <a href="">Тендеры и государственные закупки</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/item wrap-->
+                    <!--item wrap-->
+                    <div class="item-wrap">
+                        <div class="item-tile-blog">
+                            <a href="" class="tile-link"></a>
+                            <img src="./img/03.jpeg" alt="" class="img-bg-cover">
+                            <div class="tile-title-wrap">
+                                <div class="tile-title">Как выбрать экспертную организацию и не прогадать</div>
+                                <div class="tile-desc">
+                                    <p>В настоящее время многие граждане и организации, юристы и адвокаты, судьи и следователи стоят перед достаточно сложным выбором: как из множества экспертных организаций выбрать именно ту, которая сможет провести серьезное экспертное исследование в рамках гражданского, арбитражного, административного или уголовного дела....</p>
+                                </div>
+                            </div>
+                            <div class="tile-info-wrap">
+                                <div class="tile-actions-wrap">
+                                    <div class="tile-date">20 марта 2023, 14:26</div>
+                                    <div class="tile-actions">
+                                        <div class="tile-action">
+                                            <a href="" class="btn-action-button">
+                                                <span class="button-ico">
+                                                    <img src="./img/icons/like.svg" alt="">
+                                                </span>
+                                                <span class="button-title">152</span>
+                                            </a>
+                                        </div>
+                                        <div class="tile-action">
+                                            <a href="" class="btn-action-button">
+                                                <span class="button-ico button-revert">
+                                                    <img src="./img/icons/like.svg" alt="">
+                                                </span>
+                                                <span class="button-title">152</span>
+                                            </a>
+                                        </div>
+                                        <div class="tile-action">
+                                            <a href="" class="btn-action-button">
+                                                <span class="button-ico">
+                                                    <img src="./img/icons/messages.svg" alt="">
+                                                </span>
+                                                <span class="button-title">152</span>
+                                            </a>
+                                        </div>
+                                        <div class="tile-action">
+                                            <a href="" class="btn-action-button">
+                                                <span class="button-ico">
+                                                    <img src="./img/icons/view.svg" alt="">
+                                                </span>
+                                                <span class="button-title">152</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tile-info-row">Автор: <a href="">Иванов Иван</a></div>
+                                <div class="tile-info-row">Категория блога: <a href="">Тендеры и государственные закупки</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/item wrap-->
+                    <!--item wrap-->
+                    <div class="item-wrap">
+                        <div class="item-tile-blog">
+                            <a href="" class="tile-link"></a>
+                            <img src="./img/01.jpeg" alt="" class="img-bg-cover">
+                            <div class="tile-title-wrap">
+                                <div class="tile-title">Как выбрать экспертную организацию и не прогадать</div>
+                                <div class="tile-desc">
+                                    <p>В настоящее время многие граждане и организации, юристы и адвокаты, судьи и следователи стоят перед достаточно сложным выбором: как из множества экспертных организаций выбрать именно ту, которая сможет провести серьезное экспертное исследование в рамках гражданского, арбитражного, административного или уголовного дела....</p>
+                                </div>
+                            </div>
+                            <div class="tile-info-wrap">
+                                <div class="tile-actions-wrap">
+                                    <div class="tile-date">20 марта 2023, 14:26</div>
+                                    <div class="tile-actions">
+                                        <div class="tile-action">
+                                            <a href="" class="btn-action-button">
+                                                <span class="button-ico">
+                                                    <img src="./img/icons/like.svg" alt="">
+                                                </span>
+                                                <span class="button-title">152</span>
+                                            </a>
+                                        </div>
+                                        <div class="tile-action">
+                                            <a href="" class="btn-action-button">
+                                                <span class="button-ico button-revert">
+                                                    <img src="./img/icons/like.svg" alt="">
+                                                </span>
+                                                <span class="button-title">152</span>
+                                            </a>
+                                        </div>
+                                        <div class="tile-action">
+                                            <a href="" class="btn-action-button">
+                                                <span class="button-ico">
+                                                    <img src="./img/icons/messages.svg" alt="">
+                                                </span>
+                                                <span class="button-title">152</span>
+                                            </a>
+                                        </div>
+                                        <div class="tile-action">
+                                            <a href="" class="btn-action-button">
+                                                <span class="button-ico">
+                                                    <img src="./img/icons/view.svg" alt="">
+                                                </span>
+                                                <span class="button-title">152</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tile-info-row">Автор: <a href="">Иванов Иван</a></div>
+                                <div class="tile-info-row">Категория блога: <a href="">Тендеры и государственные закупки</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/item wrap-->
+                    <!--item wrap-->
+                    <div class="item-wrap">
+                        <div class="item-tile-blog">
+                            <a href="" class="tile-link"></a>
+                            <img src="./img/02.jpeg" alt="" class="img-bg-cover">
+                            <div class="tile-title-wrap">
+                                <div class="tile-title">GRATA International приняла участие в конвенции PDAC 2023</div>
+                                <div class="tile-desc">
+                                    <p>С 5 по 8 марта 2023 года в Торонто, Канада, состоялась Всемирная конвенция PDAC 2023.Ежегодная конвенция PDAC 2023 — мировая премьера в области минерально-сырьевого поиска и добычи....</p>
+                                </div>
+                            </div>
+                            <div class="tile-info-wrap">
+                                <div class="tile-actions-wrap">
+                                    <div class="tile-date">20 марта 2023, 14:26</div>
+                                    <div class="tile-actions">
+                                        <div class="tile-action">
+                                            <a href="" class="btn-action-button">
+                                                <span class="button-ico">
+                                                    <img src="./img/icons/like.svg" alt="">
+                                                </span>
+                                                <span class="button-title">152</span>
+                                            </a>
+                                        </div>
+                                        <div class="tile-action">
+                                            <a href="" class="btn-action-button">
+                                                <span class="button-ico button-revert">
+                                                    <img src="./img/icons/like.svg" alt="">
+                                                </span>
+                                                <span class="button-title">152</span>
+                                            </a>
+                                        </div>
+                                        <div class="tile-action">
+                                            <a href="" class="btn-action-button">
+                                                <span class="button-ico">
+                                                    <img src="./img/icons/messages.svg" alt="">
+                                                </span>
+                                                <span class="button-title">152</span>
+                                            </a>
+                                        </div>
+                                        <div class="tile-action">
+                                            <a href="" class="btn-action-button">
+                                                <span class="button-ico">
+                                                    <img src="./img/icons/view.svg" alt="">
+                                                </span>
+                                                <span class="button-title">152</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tile-info-row">Автор: <a href="">Иванов Иван</a></div>
+                                <div class="tile-info-row">Категория блога: <a href="">Тендеры и государственные закупки</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/item wrap-->
+                    <!--item wrap-->
+                    <div class="item-wrap">
+                        <div class="item-tile-blog">
+                            <a href="" class="tile-link"></a>
+                            <img src="./img/03.jpeg" alt="" class="img-bg-cover">
+                            <div class="tile-title-wrap">
+                                <div class="tile-title">Как выбрать экспертную организацию и не прогадать</div>
+                                <div class="tile-desc">
+                                    <p>В настоящее время многие граждане и организации, юристы и адвокаты, судьи и следователи стоят перед достаточно сложным выбором: как из множества экспертных организаций выбрать именно ту, которая сможет провести серьезное экспертное исследование в рамках гражданского, арбитражного, административного или уголовного дела....</p>
+                                </div>
+                            </div>
+                            <div class="tile-info-wrap">
+                                <div class="tile-actions-wrap">
+                                    <div class="tile-date">20 марта 2023, 14:26</div>
+                                    <div class="tile-actions">
+                                        <div class="tile-action">
+                                            <a href="" class="btn-action-button">
+                                                <span class="button-ico">
+                                                    <img src="./img/icons/like.svg" alt="">
+                                                </span>
+                                                <span class="button-title">152</span>
+                                            </a>
+                                        </div>
+                                        <div class="tile-action">
+                                            <a href="" class="btn-action-button">
+                                                <span class="button-ico button-revert">
+                                                    <img src="./img/icons/like.svg" alt="">
+                                                </span>
+                                                <span class="button-title">152</span>
+                                            </a>
+                                        </div>
+                                        <div class="tile-action">
+                                            <a href="" class="btn-action-button">
+                                                <span class="button-ico">
+                                                    <img src="./img/icons/messages.svg" alt="">
+                                                </span>
+                                                <span class="button-title">152</span>
+                                            </a>
+                                        </div>
+                                        <div class="tile-action">
+                                            <a href="" class="btn-action-button">
+                                                <span class="button-ico">
+                                                    <img src="./img/icons/view.svg" alt="">
+                                                </span>
+                                                <span class="button-title">152</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tile-info-row">Автор: <a href="">Иванов Иван</a></div>
+                                <div class="tile-info-row">Категория блога: <a href="">Тендеры и государственные закупки</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/item wrap-->
+                </div>
+                <div class="more-box">
+                    <a href="">Все статьи</a>
+                </div>
+            </div>
+        </div>
+        <!--/blogs-tiles-box-->
+
+        <!--media-about-box-->
+        <div class="media-about-box">
+            <div class="containerS">
+                <h2 class="titles">О нас пишут</h2>
+                <p class="subtitles">Вот вам яркий пример современных тенденций - внедрение современных методик представляет собой интересный эксперимент проверки благоприятных перспектив. А также.</p>
+                <div class="abouttiles__slider">
+                    <div class="abouttiles_sliderjs">
+                        <!--sl-wrap-->
+                        <div class="sl-wrap">
+                            <a href="" class="item-tile-logo">
+                                <img src="./img/logo01.png" alt="">
+                            </a>
+                        </div>
+                        <!--/sl-wrap-->
+                        <!--sl-wrap-->
+                        <div class="sl-wrap">
+                            <a href="" class="item-tile-logo">
+                                <img src="./img/logo02.png" alt="">
+                            </a>
+                        </div>
+                        <!--/sl-wrap-->
+                        <!--sl-wrap-->
+                        <div class="sl-wrap">
+                            <a href="" class="item-tile-logo">
+                                <img src="./img/logo03.png" alt="">
+                            </a>
+                        </div>
+                        <!--/sl-wrap-->
+                        <!--sl-wrap-->
+                        <div class="sl-wrap">
+                            <a href="" class="item-tile-logo">
+                                <img src="./img/logo01.png" alt="">
+                            </a>
+                        </div>
+                        <!--/sl-wrap-->
+                        <!--sl-wrap-->
+                        <div class="sl-wrap">
+                            <a href="" class="item-tile-logo">
+                                <img src="./img/logo02.png" alt="">
+                            </a>
+                        </div>
+                        <!--/sl-wrap-->
+                        <!--sl-wrap-->
+                        <div class="sl-wrap">
+                            <a href="" class="item-tile-logo">
+                                <img src="./img/logo03.png" alt="">
+                            </a>
+                        </div>
+                        <!--/sl-wrap-->
+                        <!--sl-wrap-->
+                        <div class="sl-wrap">
+                            <a href="" class="item-tile-logo">
+                                <img src="./img/logo01.png" alt="">
+                            </a>
+                        </div>
+                        <!--/sl-wrap-->
+                        <!--sl-wrap-->
+                        <div class="sl-wrap">
+                            <a href="" class="item-tile-logo">
+                                <img src="./img/logo02.png" alt="">
+                            </a>
+                        </div>
+                        <!--/sl-wrap-->
+                        <!--sl-wrap-->
+                        <div class="sl-wrap">
+                            <a href="" class="item-tile-logo">
+                                <img src="./img/logo03.png" alt="">
+                            </a>
+                        </div>
+                        <!--/sl-wrap-->
+                        <!--sl-wrap-->
+                        <div class="sl-wrap">
+                            <a href="" class="item-tile-logo">
+                                <img src="./img/logo01.png" alt="">
+                            </a>
+                        </div>
+                        <!--/sl-wrap-->
+                        <!--sl-wrap-->
+                        <div class="sl-wrap">
+                            <a href="" class="item-tile-logo">
+                                <img src="./img/logo02.png" alt="">
+                            </a>
+                        </div>
+                        <!--/sl-wrap-->
+                        <!--sl-wrap-->
+                        <div class="sl-wrap">
+                            <a href="" class="item-tile-logo">
+                                <img src="./img/logo03.png" alt="">
+                            </a>
+                        </div>
+                        <!--/sl-wrap-->
+                        <!--sl-wrap-->
+                        <div class="sl-wrap">
+                            <a href="" class="item-tile-logo">
+                                <img src="./img/logo01.png" alt="">
+                            </a>
+                        </div>
+                        <!--/sl-wrap-->
+                        <!--sl-wrap-->
+                        <div class="sl-wrap">
+                            <a href="" class="item-tile-logo">
+                                <img src="./img/logo02.png" alt="">
+                            </a>
+                        </div>
+                        <!--/sl-wrap-->
+                        <!--sl-wrap-->
+                        <div class="sl-wrap">
+                            <a href="" class="item-tile-logo">
+                                <img src="./img/logo03.png" alt="">
+                            </a>
+                        </div>
+                        <!--/sl-wrap-->
+                        <!--sl-wrap-->
+                        <div class="sl-wrap">
+                            <a href="" class="item-tile-logo">
+                                <img src="./img/logo01.png" alt="">
+                            </a>
+                        </div>
+                        <!--/sl-wrap-->
+                        <!--sl-wrap-->
+                        <div class="sl-wrap">
+                            <a href="" class="item-tile-logo">
+                                <img src="./img/logo02.png" alt="">
+                            </a>
+                        </div>
+                        <!--/sl-wrap-->
+                        <!--sl-wrap-->
+                        <div class="sl-wrap">
+                            <a href="" class="item-tile-logo">
+                                <img src="./img/logo03.png" alt="">
+                            </a>
+                        </div>
+                        <!--/sl-wrap-->
+                    </div>
+                </div>
+                <div class="more-box">
+                    <a href="">Посмотреть все отзывы</a>
+                </div>
+            </div>
+        </div>
+        <!--/media-about-box-->
+
+        <!--info-title-box-->
+        <div class="info-title-box no-mbottom">
+            <div class="containerS containerS_small">
+                <div class="title-inner-wrap">
+                    <h2 class="inner-title">Получите бонус <span class="title-att">каждый 3-й вопрос </span> Бесплатно!</h2>
+                </div>
+                <div class="action-inner-wrap">
+                    <a href="" class="btns btns__yellow">Получить бонус</a>
+                </div>
+            </div>
+        </div>
+        <!--/info-title-box-->
 
 
         <!-- footer -->
         <footer class="footer">
-            <div class="inner-wrap">
-                333333
+            <div class="footer__top">
+                <div class="containerS">
+                    <div class="footer__topinside dflex">
+                        <div class="footer__topleft">
+                            <a href="https://smartpravo.com/">
+                                <img src="./index_files/logo.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="footer__topright">
+                            <div class="footer__social">
+                                <ul>
+                                    <li>
+                                        <a href="https://t.me/smartpravo24" target="_blank">
+                                            <svg width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M9.4174 14.5403L9.0204 20.4034C9.58841 20.4034 9.83441 20.1472 10.1294 19.8396L12.7925 17.1674L18.3106 21.4104C19.3226 22.0026 20.0357 21.6907 20.3087 20.4328L23.9308 2.61233L23.9318 2.61128C24.2528 1.04049 23.3907 0.426244 22.4047 0.811592L1.1142 9.3701C-0.33883 9.9623 -0.31683 10.8128 0.867199 11.1981L6.31033 12.9758L18.9536 4.66927C19.5486 4.25557 20.0897 4.48447 19.6446 4.89817L9.4174 14.5403Z" fill="white"></path>
+                                            </svg>
+                                        </a>
+                                    </li>
+
+
+                                    <li>
+                                        <a href="https://vm.tiktok.com/ZSe3pn9Jt/" target="_blank">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M11.5291 8.68029C11.5159 16.3282 11.5089 16.9686 11.437 17.235C11.341 17.59 11.1002 18.1205 10.9068 18.4029C10.4709 19.0395 9.73743 19.5499 8.93788 19.773C8.58678 19.871 7.94278 19.9006 7.55718 19.8363C6.66089 19.6871 5.8254 19.1695 5.31608 18.448C4.90703 17.8685 4.71359 17.3204 4.67371 16.6278C4.63157 15.8957 4.80676 15.2113 5.19073 14.6083C5.53464 14.0681 6.14075 13.545 6.7197 13.2888C7.31177 13.0268 8.15165 12.9432 8.80208 13.0816C8.97632 13.1188 9.12403 13.1491 9.13028 13.1491C9.13648 13.1491 9.1416 12.2907 9.1416 11.2415V9.33403L8.92657 9.29901C8.59963 9.24584 7.4445 9.26094 7.03658 9.32376C5.29132 9.59243 3.7949 10.408 2.60523 11.7391C1.75987 12.6849 1.16431 13.9418 0.942945 15.2472C0.861234 15.7289 0.850868 15.9311 0.870741 16.6514C0.894688 17.5172 0.956345 17.917 1.17585 18.6299C1.32348 19.1092 1.72692 19.9316 2.06675 20.446C2.48948 21.0858 3.34493 21.9412 3.99671 22.3759C4.81599 22.9224 5.62328 23.267 6.5948 23.485C6.97515 23.5703 7.17827 23.5844 8.05514 23.5859C8.86591 23.5873 9.14965 23.5712 9.44612 23.5069C10.4906 23.2804 11.3029 22.9447 12.118 22.4027C12.5127 22.1402 12.7965 21.9012 13.2177 21.4765C13.581 21.1103 13.8883 20.7492 14.0709 20.4739C14.5994 19.6771 14.9527 18.8572 15.1723 17.9181C15.2708 17.4968 15.2719 17.4487 15.2863 12.7511C15.2944 10.1432 15.3114 8.0094 15.3242 8.0094C15.3369 8.0094 15.4534 8.08736 15.5831 8.18261C16.4977 8.85468 17.7737 9.43656 18.9467 9.71656C19.5162 9.85246 20.3568 9.96522 20.8007 9.96522H21.1379V8.07763V6.19004H20.8226C20.6492 6.19004 20.3065 6.15093 20.0609 6.10308C18.8445 5.86615 17.7826 5.28441 16.929 4.38719C16.0066 3.41779 15.4768 2.26837 15.3332 0.925269L15.2786 0.413574H13.411H11.5434L11.5291 8.68029Z" fill="white"></path>
+                                            </svg>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="https://www.youtube.com/channel/UC9hbQUfpmfi_f_equkpZt1g" target="_blank">
+                                            <svg width="30" height="22" viewBox="0 0 30 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M26.7379 1.1425C28.0229 1.48846 29.0361 2.50164 29.3821 3.78664C30.0246 6.13424 29.9999 11.0271 29.9999 11.0271C29.9999 11.0271 29.9999 15.8953 29.3821 18.2429C29.0361 19.5279 28.0229 20.5411 26.7379 20.8871C24.3903 21.5049 14.9999 21.5049 14.9999 21.5049C14.9999 21.5049 5.63424 21.5049 3.26193 20.8624C1.97693 20.5164 0.963752 19.5032 0.61779 18.2182C0 15.8953 0 11.0024 0 11.0024C0 11.0024 0 6.13424 0.61779 3.78664C0.963752 2.50164 2.00164 1.46375 3.26193 1.11779C5.60953 0.5 14.9999 0.5 14.9999 0.5C14.9999 0.5 24.3903 0.5 26.7379 1.1425ZM19.8187 11.0024L12.0098 15.4999V6.50492L19.8187 11.0024Z" fill="white"></path>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <div class="containerS">
+                    <div class="footer__bottominside dflex">
+                        <div class="footer__bottomleft dflex">
+                            <div class="footer__menu">
+                                <h5>О компании</h5>
+                                <div class="footer__menuul">
+                                    <ul>
+                                        <li>
+                                            <a href="https://smartpravo.com/about">О проекте</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://smartpravo.com/register#">О команде</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://smartpravo.com/contacts">Контакты</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://smartpravo.com/reviews">Отзывы</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://smartpravo.com/lawyers">Наши юристы</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="https://smartpravo.com/polzovatelskoe-soglashenie">Пользовательское соглашение</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://smartpravo.com/politika-v-otnoshenii-obrabotki-personalnykh-dannykh">Политика в отношении обработки персональных данных</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://smartpravo.com/offer">Оферта для продавцов</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://smartpravo.com/oferta-dlya-polzovateley">Оферта для пользователей</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="footer__menu">
+                                <h5>Клиентам</h5>
+                                <div class="footer__menuul">
+                                    <ul>
+                                        <li>
+                                            <a href="https://smartpravo.com/add-question">Задать вопрос</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://smartpravo.com/docorder">Заказать документ</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://smartpravo.com/solutions_add">Заказать готовое решение</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://smartpravo.com/faq">Частые вопросы</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="footer__menu footer__menulast">
+                                <div class="footer__menuitem">
+                                    <h5>Юристам</h5>
+                                    <div class="footer__menuul">
+                                        <ul>
+                                            <li>
+                                                <a href="https://smartpravo.com/register#">Блог</a>
+                                            </li>
+                                            <li>
+                                                <a href="https://smartpravo.com/register">Стать юристом проекта</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="footer__menuitem">
+                                    <h5>Партнерам</h5>
+                                    <div class="footer__menuul">
+                                        <ul>
+
+                                            <li>
+                                                <a href="https://smartpravo.com/sotrudnichestvo-dlya-yuristov">Сотрудничество для юристов</a>
+                                            </li>
+                                            <li>
+                                                <a href="https://smartpravo.com/predlozhenie-dlya-biznesa">Предложение для бизнеса</a>
+                                            </li>
+                                            <li>
+                                                <a href="https://smartpravo.com/registratsiya-kompanii-v-kazakhstane">Регистрация компании в Казахстане</a>
+                                            </li>
+                                            <li>
+                                                <a href="https://smartpravo.com/registratsiya-kompanii-v-dubae">Регистрация компании в Дубае</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer__bottomright">
+                            <h5>Контакты</h5>
+                            <p>614500, Пермский край, г. Пермь, шоссе Космонавтов, 316</p>
+                            <h5>Техническая поддержка</h5>
+                            <p>Если у вас остались вопросы, оставьте свои контакты, мы свяжемся с вами</p>
+                            <div class="footer__subscribe">
+                                <form>
+                                    <div class="footer__subsc dflex">
+                                        <input type="email" required="" placeholder="Ваш Email" class="footer__input">
+                                        <button class="btns__yellow btns footer__btn">Отправить</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </footer>
+        <div class="underfooter">
+            <div class="containerS containerS_small">
+                <div class="underfooter__text">© 2011—2023 Все права защищены.</div>
+            </div>
+        </div>
         <!-- /footer -->
 
     </div>
     <!-- /wrap -->
 
-    <script src="./js/jquery.min.js"></script>
-    <script src="./js/jquery.fancybox.min.js"></script>
-    <script src="./js/slick.min.js"></script>
-    <script src="./js/jquery.maskedinput.min.js"></script>
-    <script src="./js/scripts.js"></script>
+    <script src="./index_files/jquery.magnific-popup.min.js"></script>
+    <script src="./index_files/jquery.maskedinput.min.js"></script>
+    <script src="./index_files/wow.min.js"></script>
+    <script src="./index_files/animate-css.js"></script>
+    <script src="./index_files/slick.min.js"></script>
+    <script src="./index_files/script.js"></script>
+    <script src="./index_files/jquery-ui.js"></script>
+    <script src="js/scripts.js"></script>
 
 </body>
 
