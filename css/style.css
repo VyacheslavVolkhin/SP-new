@@ -505,6 +505,9 @@ textarea.form-input {
   border-top: 3px solid #DBB468;
   position: relative;
 }
+.item-tile-solution:hover .tile-ico {
+  border-color: #295C7A;
+}
 .item-tile-solution .tile-title-wrap {
   display: -ms-flexbox;
   display: flex;
