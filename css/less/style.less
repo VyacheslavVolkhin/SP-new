@@ -929,8 +929,11 @@ textarea.form-input {
     }
     &:hover {
         color: #fff;
+        &:after {
+            opacity: 0.5;
+        }
     }
-    &:before {
+    &:before, &:after {
         content: "";
         display: block;
         position: absolute;
@@ -938,8 +941,13 @@ textarea.form-input {
         bottom: 0;
         left: 0;
         right: 0;
-        background: fade(#000, 65);
+        background: #000;
+        opacity: 0.65;
         z-index: 1;
+        transition: all ease 0.2s;
+    }
+    &:after {
+        opacity: 0;
     }
     p {
         margin: 0;padding: 0;
